@@ -1,0 +1,379 @@
+/* Ramon e Gustavo*/
+@font-face {
+    font-family: play;
+    src: url("../fonts/SSTRg.TTF");
+}
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li {
+    font-family: play;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-left: 0px;
+}
+ul .links::before {
+    content: "\2022"; 
+    color: #0070D1; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+                }
+a {
+    color: black !important;
+    font-family: play;
+}
+a:hover {
+    color: #0070D1 !important;
+}
+nav{
+    margin-top: -20px;
+    position: fixed ;
+    top:0;
+    left: 0;
+}
+.navbar {
+    padding-bottom: 0 !important;
+    height: 74px;
+}
+.R-icones{
+    width: 70px;
+}
+.R-logo {
+    width: 40px;
+}
+.btn-header{
+    background-color: #363636;
+    padding: 2px;
+    color: #ffff;
+    text-align: center;
+    font-weight: 500;
+    vertical-align: text-top;
+    width: 110px;
+    height: 25px;
+    
+}
+.btn-header:hover{
+    color: #ffff;
+    background-color: #606060;
+}
+.sony{
+    background-color: black;
+    text-align: end;
+    height: 40px;
+}
+.logoSony{
+    width: 80px;
+    margin: 10px;
+    /* Ramon e Gustavo*/
+}
+.dropdown-menu{
+    width: 1400px;
+    border: hidden;
+    border-bottom: black;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.466);
+    margin: -90px;
+}
+.teste {
+    text-align: center;
+    justify-content: center;
+}
+.links{
+    text-align: center;
+    margin-left: 150px;
+    text-align: center;
+}
+.li2{
+    margin-left: 100px;
+}
+.li3{
+    margin-left: 350px;
+}
+.li4{
+    margin-left: 550px;
+}
+.li5{
+    margin-left: 120px;
+}
+.links:hover{
+    color:#0070D1 ;
+}
+.R-hardware{
+    width: 1400px;
+    margin: -200px;
+}
+ .R-servicos{
+    width: 1400px;
+    margin: -240px;
+}
+.R-noticias{
+    width: 1400px;
+    margin: -300px;
+}
+.R-loja{
+    width: 1400px;
+    margin: -400px;
+}
+.R-suporte{
+    width: 1400px;
+    margin: -500px;
+} 
+
+.corPlus{
+  background-color: #D3D3D3;
+}
+.bg-Plus{
+  background-color: #BEBCBB ;
+  height: 400px;
+  width: 100.92% !important;
+  font-family: play;
+
+}
+.PlusPlus{
+  width: 300px;
+  text-align: center;
+}
+.Hitman{
+      width: 500px;
+      height: 400px;
+  }
+.playplay{
+  
+  width: 500px;
+}
+.btn-plus{
+  background-color:#D9DADC ;
+  color: #557fe4;
+  font-weight: 600;
+}
+.centralizar{
+  margin-left: 200px;
+}
+.plau{
+  background-image: url(./img/PlayPlus3.png);
+}
+
+/* kaique e brenda */
+
+.k-death{
+background-image: url(../img/death-streanding.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+}
+.k-kena{
+background-image: url(../img/kena.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+color: #fff;
+}
+img{
+  width: 100%;
+  max-width: 200%;
+}
+.k-btn-laranja{
+color: #fff;
+background-color: #cd3d0f;
+border-color: #cd3d0f;
+}
+.k-btn{
+color: #fff !important;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+border: 1px solid transparent;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+border-radius: 1.5rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+h2{
+font-size: calc(1rem + 0.9vw);
+}
+.k-margin{
+margin: 10% 0 10% 5%;
+}
+.k-icone-galeria{
+width: 200px !important;
+border-radius: 10px 10px 10px 10px;
+}
+img.k-icone-galeria {
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+filter: rgb(199, 195, 195); /* IE6-9 */
+-webkit-filter: grayscale(50%); /* Chrome 19+ & Safari 6+ */
+}
+img.k-icone-galeria:hover {
+filter: none;
+-webkit-filter: grayscale(0%);
+margin-top: -1rem !important;
+box-shadow: 0 5px 0 0 rgba(104, 103, 103, 0.801);
+transition: 500ms;
+}
+
+
+
+
+
+ /* João e pedro */
+
+ .jp-bannerbg {
+    background-color: rgb(38, 37, 79);
+    color: #F5F5F5;
+    background-image: url("../img/bg1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .jp-texto1 {
+    color: #8e76b1;
+    background-color: #26254F;
+  }
+
+  .jp-container {
+    height: 480px;
+  }
+
+  .jp-jão {
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .jp-texto2 {
+    color: rgb(200, 188, 211);
+    font-size: 20px;
+  }
+
+  .jp-gui {
+    height: 160px;
+  }
+  .jp-cardsjão {
+
+    width: 110%;
+    margin-left: 30% !important;
+    margin-right: 100% !important;
+  }
+
+  .jp-imgborder {
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+  }
+  .jp-imgborder:hover {
+    width: 101%;
+    box-shadow: 7px 7px 10px black;
+    transition: 400ms;
+  }
+  #tamanho {
+      height: 300px;
+  }
+  .jp-botão {
+    border: black;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .jp-mtext {
+    margin-top: 50px !important;
+    font-size: 40px;
+  }
+  .jp-card-title {
+    font-size: 25px !important;
+  }
+  .jp-negrito {
+    font-weight: bold;
+  }
+  .jp-h1text {
+    font-weight: lighter;
+  }
+  .jp-textos {
+    margin-left: 15%;
+  }
+
+
+   /* Guilherme e Kaique */
+
+
+   .card{
+    display: flex;;
+    width: 18rem !important;
+    height: 379.38px;
+    border: none;
+    
+}
+    .row {
+        
+        width: 99.5%;
+}
+    .g-brenda {
+    justify-content: center;
+    align-items: center;    
+}
+.g-brenda h2 {
+    margin-top: 2%;
+    margin-left: 37%;
+}
+.g-center {
+    margin-left: 22%;
+}
+
+
+
+/* 
+ Ramom e Gustavo  */
+
+
+
+
+/* PEdro e Joao */
+
+.jp-banner3bg{
+    background-image:  url("../img/banner3.1.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%
+  }
+  .jp-container2 {
+    height: 700px;
+  }
+  .jp-botão {
+    border: black;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .jp-negrito {
+    font-weight: bold;
+  }
+  .jp-espaço{
+    color: white;
+    margin-left: 230px;
+    margin-top: 220px;
+  }
+  .jp-logo {
+    width: 57%;
+  }
+  .jp-texto-branco {
+   font-weight: lighter;
+  }
+
+
+
